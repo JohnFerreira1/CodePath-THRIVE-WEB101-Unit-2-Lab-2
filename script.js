@@ -13,6 +13,7 @@ function updateTimerDisplay() {
   seconds = seconds < 10 ? "0" + seconds: seconds;
   allSeconds --;
   Countdown.innerHTML = `${minutes}:${seconds}`
+  if allSeconds =< 0
 }
 const start = () => {
   let isrunning = true;
